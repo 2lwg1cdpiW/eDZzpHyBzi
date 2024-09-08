@@ -629,7 +629,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
                 Text = "Emotes gui is here!",
                  Duration = 10})
   
-Frame.BackgroundTransparency = 0
+Frame.BackgroundTransparency = 0.6
 game.Players.LocalPlayer.PlayerGui.ContextActionGui:Destroy()
 
 local TweenService = game:GetService("TweenService")
